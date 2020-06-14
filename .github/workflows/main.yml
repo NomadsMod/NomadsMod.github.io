@@ -1,0 +1,60 @@
+# This workflow will build the nomads website
+# Run tests - WIP 
+name: Build Hugo nomads site
+
+# Triggers the workflow on push for any branch
+on: push
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out current branch
+        uses: actions/checkout@v2
+        with:
+          ref: ${{ github.ref }}
+
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: '0.71.1'
+          extended: true
+
+      - name: Setup Node
+        uses: actions/setup-node@v1
+        with:
+          node-version: '12.x'
+
+      - name: Cache dependencies
+        uses: actions/cache@v1
+        with:
+          path: ~/.npm
+          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-node-
+
+      - name: Run hugo, clean and build site
+        run: |
+          echo 'Clean site'
+          if [ -d "public" ]; then
+              rm -rf public/*
+          fi
+          echo 'Build site'
+          npm set init.author.email "nomads@faf.domain"
+          npm set init.author.name "nomads"
+          npm init --yes
+          npm i
+          git submodule init
+          git submodule update
+          hugo -D
+        
+      - name: Commit output back to repo
+        uses: EndBug/add-and-commit@v4 # You can change this to use a specific version
+        with:
+          # The message for the commit
+          # Default: 'Commit from GitHub Actions'
+          message: 'HUGO Nomads website rebuilt'
+        env:
+          # This is necessary in order to push a commit to the repo
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # Leave this line unchanged

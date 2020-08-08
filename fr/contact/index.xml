@@ -2,13 +2,13 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Contact on Nomads | The 5th FAF Faction</title>
-    <link>https://nomadsmod.github.io/public/fr/contact/</link>
+    <link>https://nomadsmod.github.io/fr/contact/</link>
     <description>Recent content in Contact on Nomads | The 5th FAF Faction</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr-fr</language>
     <copyright>Designed By [Themefisher](https://themefisher.com/) &amp; Developed By [Gethugothemes](https://gethugothemes.com/)</copyright>
     
-	<atom:link href="https://nomadsmod.github.io/public/fr/contact/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://nomadsmod.github.io/fr/contact/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>

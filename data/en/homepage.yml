@@ -98,7 +98,7 @@ products:
 ################################## Subscription ###################
 subscription:
   enable : true
-  bg_image : "images/call-to-action.jpg"
+  bg_image : "images/Background_No_Logo.jpg"
   title : "Join our community on discord"
   content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod"
   placeholder : "Your Email Address Here"

@@ -2,18 +2,23 @@ h1,h2,h3 {
     color: white;
 }
 p {
-    color: #c2bdb5;
+    color: #C2BDB5;
 }
 
 body {
+    color: #C2BDB5;
     background-color: #181A1B;
 }
 
 .bg-white {
-    background-color: #1e2122;
+    background-color: #1E2122;
 }
 
-footer {
-    background-color: #1e2122;
+header, footer {
+    background-color: #1E2122;
     background-image: none;
+}
+
+.gallery-overlay {
+    background-color: rgba(24, 26, 27, 0.85)
 }

@@ -1,5 +1,5 @@
 ################################### Default Configuration ############################
-baseurl = "https://nomadsmod.github.io/public/"
+baseurl = "https://nomadsmod.github.io/"
 title = "Nomads | The 5th FAF Faction"
 theme = "vex-hugo"
 # post excert

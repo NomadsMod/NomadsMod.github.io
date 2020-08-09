@@ -15,11 +15,11 @@ body {
     background-color: #181A1B;
 }
 
-header .bg-white {
-    background: #1E2122!important;
+.bg-white {
+    background-color: #1E2122!important;
 }
 
-footer .bg-white {
+footer,header {
     background-color: #1E2122!important;
     background-image: none;
 }

@@ -1,34 +1,33 @@
 ############################# banner ############################
 banner:
   enable : true
-  title : "Believe in Technology, Make the change"
-  content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas, modi fugit in veritatis labore perferendis. Minima hic at, nostrum nihil!"
-  image : "images/watch.png"
-  button:
-   enable : true
-   label : "Browse All Products"
-   link : "products"
+  title : "NOMADS"
+  content : "The Nomads are a lost civilization in deep space, diversified in their respective fleets and cultures, and united together as a confederation.
+            <br> <br>
+            A mod for Supreme Commander Forged Alliance, they are added as a fully-fledged fifth faction, with unique units, strategies, and even custom taunts!"
+  image : "images/Render_02.png"
+
 
 ############################# Feature ############################
 features:
   enable : true
-  title : "Our Core Features"
-  image : "images/watch-2.png"
+  title : "The Fifth Faction"
+  image : "images/Spectrez_acu_poster.jpg"
 
   # feature at the left of the image
   left_side:
     # feature item loop
-  - title : "Smooth Touch"
+  - title : "The Largest Featured Mod"
     icon : "tf-ion-ios-alarm-outline"
     content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, inventore?"
     
     # feature item loop
-  - title : "Elegant Design"
+  - title : "Active community"
     icon : "tf-ion-ios-bell-outline"
     content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, inventore?"
     
     # feature item loop
-  - title : "Easy Pricing"
+  - title : "Up to date with FAF patches"
     icon : "tf-ion-ios-cart-outline"
     content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, inventore?"
 
@@ -36,17 +35,17 @@ features:
   # feature at the right of the image
   right_side:
     # feature item loop
-  - title : "Smooth Touch"
+  - title : "All new models"
     icon : "tf-ion-ios-alarm-outline"
     content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, inventore?"
 
     # feature item loop
-  - title : "Elegant Design"
+  - title : "Integrated into the lore"
     icon : "tf-ion-ios-bell-outline"
     content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, inventore?"
 
     # feature item loop
-  - title : "Easy Pricing"
+  - title : "Custom Campaign"
     icon : "tf-ion-ios-cart-outline"
     content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, inventore?"
 
@@ -55,7 +54,7 @@ features:
 promo:
   enable : true
   image : "images/watch.png"
-  title : "Designed by professional , the benefit for creative gigs"
+  title : "Pushing the boundaries of Supreme Commander"
   content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia vel labore, deleniti minima
             nisi, velit atque quaerat impedit ea maxime sunt accusamus at obcaecati dolor iure iusto omnis quis eum.
             <br><br>
@@ -65,42 +64,42 @@ promo:
 ############################# About Product #######################
 about_product:
   enable : true
-  title : "Why Choose Apple Watch"
+  title : "About the Nomads"
   items:
     # about product item loop
     - image : "images/showcase/showcase-4.png"
-      title : "Lorem ipsum dolor sit amet."
+      title : "Multiplayer"
       content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate, sed, assumenda. Tenetur
             sed esse, voluptas voluptate est veniam numquam, quis magni. Architecto minus suscipit
             quas, quo harum deserunt consequatur cumque!"
       button:
         enable : false
-        label : "Check Features"
+        label : "Play through FAF Now"
         link : "#"
         
     # about product item loop
     - image : "images/showcase/showcase-3.png"
-      title : "Lorem ipsum dolor sit amet."
+      title : "Custom Campaign"
       content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate, sed, assumenda. Tenetur
             sed esse, voluptas voluptate est veniam numquam, quis magni. Architecto minus suscipit
             quas, quo harum deserunt consequatur cumque!"
       button:
         enable : false
-        label : "Check Features"
+        label : "Download the missions"
         link : "#"
 
 
 #################################### Products ########################
 products:
   enable : true
-  title : "Checkout Our All Products"
+  title : "Unit information"
 
 
 ################################## Subscription ###################
 subscription:
   enable : true
-  bg_image : "images/call-to-action.jpg"
-  title : "Get Product Updates"
+  bg_image : "images/Background_No_Logo.jpg"
+  title : "Join our community on discord"
   content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod"
   placeholder : "Your Email Address Here"
 
@@ -108,7 +107,7 @@ subscription:
 ############################## Testimonial ##########################
 testimonial:
   enable : true
-  title : "Watch Review"
+  title : "Latest News"
   testimonial_item:
     # testimonial item loop
     - name : "Jonathon Andrew"

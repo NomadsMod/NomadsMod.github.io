@@ -12,24 +12,24 @@ banner:
 features:
   enable : true
   title : "The Fifth Faction"
-  image : "images/watch-2.png"
+  image : "images/Spectrez_acu_poster.jpg"
 
   # feature at the left of the image
   left_side:
     # feature item loop
   - title : "The Largest Featured Mod"
     icon : "tf-ion-ios-alarm-outline"
-    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, inventore?"
+    content : "We are actively adding to Nomads on a monthly basis and always improving."
     
     # feature item loop
   - title : "Active community"
     icon : "tf-ion-ios-bell-outline"
-    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, inventore?"
+    content : "A dedicated team of passionate contributors in a very active community are actively developing Nomads! Join our Discord."
     
     # feature item loop
   - title : "Up to date with FAF patches"
     icon : "tf-ion-ios-cart-outline"
-    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, inventore?"
+    content : "Official Nomads mod is always kept up to date."
 
 
   # feature at the right of the image
@@ -37,28 +37,25 @@ features:
     # feature item loop
   - title : "All new models"
     icon : "tf-ion-ios-alarm-outline"
-    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, inventore?"
+    content : "Modelled from the ground up, from sketch through to 3d modelling and skinning, we do it all."
 
     # feature item loop
   - title : "Integrated into the lore"
     icon : "tf-ion-ios-bell-outline"
-    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, inventore?"
+    content : "Catch our blog to read more about Nomads."
 
     # feature item loop
   - title : "Custom Campaign"
     icon : "tf-ion-ios-cart-outline"
-    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, inventore?"
+    content : "Check out our custom campaign - currently in Alpha."
 
 
 ############################# promo ############################
 promo:
   enable : true
-  image : "images/watch.png"
+  image : "images/Aircraft-Concept-Art.jpg"
   title : "Pushing the boundaries of Supreme Commander"
-  content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia vel labore, deleniti minima
-            nisi, velit atque quaerat impedit ea maxime sunt accusamus at obcaecati dolor iure iusto omnis quis eum.
-            <br><br>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis commodi odit, illo, qui aliquam dol"
+  content : "We are constantly thinking of new ways to push the Supreme Commander Forged Alliance game engine, we've added new units, missiles and concepts."
 
 
 ############################# About Product #######################
@@ -67,22 +64,18 @@ about_product:
   title : "About the Nomads"
   items:
     # about product item loop
-    - image : "images/showcase/showcase-4.png"
+    - image : "images/showcase/multiplayer-nomads-faf.jpg"
       title : "Multiplayer"
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate, sed, assumenda. Tenetur
-            sed esse, voluptas voluptate est veniam numquam, quis magni. Architecto minus suscipit
-            quas, quo harum deserunt consequatur cumque!"
+      content : "Bring the rockets to the multiplayer battlefield. Stomp your opponents with ACU upgrades and mobile destruction!"
       button:
         enable : false
         label : "Play through FAF Now"
         link : "#"
         
     # about product item loop
-    - image : "images/showcase/showcase-3.png"
+    - image : "images/showcase/Building-Effects.jpg"
       title : "Custom Campaign"
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate, sed, assumenda. Tenetur
-            sed esse, voluptas voluptate est veniam numquam, quis magni. Architecto minus suscipit
-            quas, quo harum deserunt consequatur cumque!"
+      content : "Nomads campaign, can be played on FAF Coop."
       button:
         enable : false
         label : "Download the missions"
@@ -107,22 +100,22 @@ subscription:
 ############################## Testimonial ##########################
 testimonial:
   enable : true
-  title : "Latest News"
+  title : "Top Contributors"
   testimonial_item:
     # testimonial item loop
-    - name : "Jonathon Andrew"
-      designation : "CEO, Themefisher"
-      image : "images/avater.png"
-      content : "A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents."
+    - name : "Exotic Retard"
+      designation : "Visionary Designer"
+      image : "https://avatars2.githubusercontent.com/u/11890250?s=88&u=c06187e904925734263cde2d318ebd0dd4c2865d&v=4"
+      content : "..."
       
     # testimonial item loop
-    - name : "Jonathon Andrew"
-      designation : "CEO, Themefisher"
-      image : "images/avater.png"
-      content : "A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents."
+    - name : "CookieNoob"
+      designation : "Balance Lad"
+      image : "https://avatars3.githubusercontent.com/u/21953792?s=60&v=4"
+      content : "..."
       
     # testimonial item loop
-    - name : "Jonathon Andrew"
-      designation : "CEO, Themefisher"
-      image : "images/avater.png"
-      content : "A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents."
+    - name : "Apofenas"
+      designation : "Balance Tweaker"
+      image : "https://avatars1.githubusercontent.com/u/35565415?s=60&v=4"
+      content : "..."

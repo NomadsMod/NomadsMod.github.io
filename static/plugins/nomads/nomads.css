@@ -22,7 +22,6 @@ header, footer {
 .gallery-overlay {
     background-color: rgba(24, 26, 27, 0.85);
 }
-
 /* tidies up subscribe form */
 .call-to-action form input[type=email] {
     display:none;

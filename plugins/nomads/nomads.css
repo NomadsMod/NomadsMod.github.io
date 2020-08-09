@@ -19,9 +19,20 @@ body {
     background-color: #1E2122!important;
 }
 
-footer,header {
-    background-color: #1E2122!important;
+header.bg-white {
+    background-color: #555567!important;
+}
+header .navbar-light .navbar-nav .nav-link {
+    color: #fff;
+}
+
+header, footer {
+    background-color: #1E2122;
     background-image: none;
+}
+
+.navbar-brand img {
+    width: 60px;
 }
 
 .gallery-overlay {
@@ -29,11 +40,6 @@ footer,header {
 }
 
 /* tidies up subscribe form */
-.call-to-action form input[type=email] {
-    display:none;
-}
-
-.call-to-action .input-group .btn-submit {
-    position: initial!important;
-    border-radius: 0px;
+.call-to-action .btn-submit {
+    margin-top:30px;
 }

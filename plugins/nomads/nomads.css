@@ -23,6 +23,12 @@ header, footer {
     background-color: rgba(24, 26, 27, 0.85);
 }
 
+/* tidies up subscribe form */
 .call-to-action form input[type=email] {
     display:none;
+}
+.call-to-action .input-group .btn-submit {
+    position: initial!important;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
 }

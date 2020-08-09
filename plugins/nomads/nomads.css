@@ -1,6 +1,11 @@
 h1,h2,h3 {
     color: white;
 }
+
+.heading {
+    color: white;
+}
+
 p {
     color: #C2BDB5;
 }
@@ -10,12 +15,12 @@ body {
     background-color: #181A1B;
 }
 
-.bg-white {
-    background-color: #1E2122;
+header .bg-white {
+    background: #1E2122!important;
 }
 
-header, footer {
-    background-color: #1E2122;
+footer .bg-white {
+    background-color: #1E2122!important;
     background-image: none;
 }
 
@@ -27,8 +32,8 @@ header, footer {
 .call-to-action form input[type=email] {
     display:none;
 }
+
 .call-to-action .input-group .btn-submit {
     position: initial!important;
-    border-top-left-radius: 0;
-    border-bottom-left-radius: 0;
+    border-radius: 0px;
 }

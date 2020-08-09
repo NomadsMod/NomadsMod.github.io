@@ -22,3 +22,7 @@ header, footer {
 .gallery-overlay {
     background-color: rgba(24, 26, 27, 0.85);
 }
+
+.call-to-action form input[type=email] {
+    display:none;
+}
